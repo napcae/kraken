@@ -96,8 +96,8 @@ To create a small, low resource-consuming cluster, alter your config to the foll
 
 Role | # | Type
 --- | ---  | ---
-Primary etcd cluster | 1 | t2.small
-Events etcd cluster | 1 | t2.small
+Primary etcd cluster | 1 | m4.large
+Events etcd cluster | 1 | m4.large
 Master nodes | 1 | m4.large
 Cluster nodes | 1 | c4.large
 ~~Special~~ ~~nodes~~ | ~~2~~ | ~~m4.large~~
